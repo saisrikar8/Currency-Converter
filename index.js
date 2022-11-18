@@ -51,13 +51,13 @@ function convertCurrency(){
         }
     }
     var message = document.getElementById("message");
-    message.innerText = dollars + " dollars is about " + (Math.trunc(factor * dollars)) + " " + obj.name + "s and " + (Math.round(((factor*dollars)-(Math.trunc(factor*dollars)))*100)) + " " + obj.name + " cents" ;
+    message.innerText = "$" + dollars + " is about " + (Math.trunc(factor * dollars)) + " " + obj.name + "s and " + (Math.round(((factor*dollars)-(Math.trunc(factor*dollars)))*100)) + " " + obj.name + " cents" ;
     document.getElementById("body").appendChild(message);
     window.scrollBy(0, 100);
 }
 function getDollars(){
     var dollars = document.getElementById("dollars");
-    return parseInt(dollars.value);
+    return parseFloat(dollars.value);
 
 }
 function getCurrency(){
