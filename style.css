@@ -1,0 +1,47 @@
+@font-face {
+    font-family: sfpro;
+    src: url("SFPRODISPLAYREGULAR.OTF");
+}
+.topImage{
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    font-size: 45px;
+    font-family: sfpro;
+}
+button{
+    background-color: rgb(47, 91, 212);
+    color: #FFFFFF;
+    border-radius:5px;
+    padding: 10px;
+    font-family: sfpro, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+button:active{
+    background-color: rgb(93, 0, 255);
+    scroll-behavior: smooth;
+}
+button:hover{
+    background-color: rgb(0, 72, 255);
+    cursor: pointer;
+}
+*{
+    font-family: sfpro;
+    border-radius: 7.5px;
+    scroll-behavior: smooth;
+}
+.swal-icon--custom {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+}
+.swal-button{
+    background-color: rgb(47, 91, 212);
+
+}
+.swal-overlay{
+    background-color: rgba(0, 255, 255, 0.413);
+}
