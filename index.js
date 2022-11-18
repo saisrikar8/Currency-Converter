@@ -13,7 +13,7 @@ var getJSON = function(url, callback) {
     };
     xhr.send();
 };
-getJSON("https://tinyurl.com/ratesjson", storeJson);
+getJSON("https://raw.githubusercontent.com/saisrikar8/json/main/rates.json", storeJson);
 function storeJson(status, json){
     rates = json;
     createOptions();
