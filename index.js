@@ -13,7 +13,7 @@ var getJSON = function(url, callback) {
     };
     xhr.send();
 };
-getJSON("http://www.floatrates.com/daily/usd.json", storeJson);
+getJSON("https://tinyurl.com/ratesjson", storeJson);
 function storeJson(status, json){
     rates = json;
     createOptions();
