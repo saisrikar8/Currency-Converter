@@ -72,7 +72,7 @@ function getCurrency(){
 }
 function error(text){
     swal({
-        title: "Error",
+        title: "Oops!",
         text: text,
         icon: "https://i.redd.it/rnj1si3kzwn51.png",
         button: true
