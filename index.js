@@ -51,7 +51,7 @@ function convertCurrency(){
         }
     }
     var message = document.getElementById("message");
-    message.innerText = "$" + parseFloat(dollars) + " is about " + (Math.trunc(factor * dollars)) + " " + obj.name + "s and " + (Math.round(((factor*dollars)-(Math.trunc(factor*dollars)))*100)) + " " + obj.name + " cents" ;
+    message.innerText = "$" + parseFloat(dollars) + " is about " + (Math.trunc(factor * dollars)) + " " + obj.name + "s and " + (Math.round(((factor*dollars)-(Math.trunc(factor*dollars)))*100)) + " " + obj.name + " cents\nFormula:\nMultiply by " + factor;
     document.getElementById("body").appendChild(message);
     window.scrollBy(0, 100);
 }
